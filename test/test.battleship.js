@@ -15,7 +15,7 @@ describe('Battleship', function() {
   }) 
   it('should fire generate a computer move', function() {
     const coordinates = generateComputerMove(almostFullBoard)
-    expect(coordinates).to.eql({x: 0, y: 7})
+    expect(coordinates).to.eql({x: 0, y: 6})
   }) 
   it('should identify when a game is over', function() {
     expect(isWon(wonBoard)).to.equal(true)

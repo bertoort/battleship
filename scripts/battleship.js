@@ -34,7 +34,7 @@ function playerMove(event) {
     }
     computerDisplayBoard = fireMissle(computerDisplayBoard, computerBoard, coordinates) 
     displayBoard(computerDisplayBoard, 'computer')
-    isOver(computerDisplayBoard, 'The Computer')
+    isOver(computerDisplayBoard, 'You')
     computerMove()
   }
 }
@@ -44,7 +44,7 @@ function computerMove() {
     const coordinates = generateComputerMove(playerBoard)
     playerBoard = fireMissle(playerBoard, playerBoard, coordinates)
     displayBoard(playerBoard, 'player')
-    isOver(playerBoard, 'You')
+    isOver(playerBoard, 'The Computer')
   }
 }
 

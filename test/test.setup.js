@@ -24,9 +24,9 @@ const testDisplayBoard = [
 
 const missTestBoard = [
   [e,e,e,d,d,d,e,e,e,e],
-  [e,e,e,e,e,e,e,e,e,s],
-  [e,e,e,e,s,e,e,e,e,s],
-  [e,e,e,e,s,e,e,e,e,s],
+  [e,e,e,e,e,e,e,e,e,e],
+  [e,e,e,e,s,e,e,e,e,e],
+  [e,e,e,e,s,e,e,e,e,e],
   [b,e,e,e,s,e,p,p,e,e],
   [b,e,e,e,e,e,e,e,e,e],
   [b,e,e,e,e,e,e,e,e,e],
@@ -38,9 +38,9 @@ const missTestBoard = [
 const hitTestBoard = [
   [d,d,d,e,e,e,e,e,e,e],
   [e,e,e,e,e,e,e,e,e,s],
-  [e,e,e,e,s,e,e,e,e,s],
-  [e,e,e,e,s,e,e,e,e,s],
-  [b,e,e,e,s,e,p,p,e,e],
+  [e,e,e,e,e,e,e,e,e,s],
+  [e,e,e,e,e,e,e,e,e,s],
+  [b,e,e,e,e,e,p,p,e,e],
   [b,e,e,e,e,e,e,e,e,e],
   [b,e,e,e,e,e,e,e,e,e],
   [b,e,e,e,e,e,e,e,e,e],
@@ -50,9 +50,9 @@ const hitTestBoard = [
 
 const almostFullBoard = [
   [m,m,m,h,h,h,m,m,m,m],
-  [m,m,m,m,m,m,m,m,m,h],
-  [m,m,m,m,h,m,m,m,m,h],
-  [m,m,m,m,h,m,m,m,m,h],
+  [m,m,m,m,m,m,m,m,m,m],
+  [m,m,m,m,h,m,m,m,m,m],
+  [m,m,m,m,h,m,m,m,m,m],
   [h,m,m,m,h,m,h,h,m,m],
   [h,m,m,m,m,m,m,m,m,m],
   [b,m,m,m,m,m,m,m,m,m],
@@ -63,9 +63,9 @@ const almostFullBoard = [
 
 const wonBoard = [
   [m,m,m,h,h,h,m,m,m,m],
-  [m,m,m,m,m,m,m,m,m,h],
-  [m,m,m,m,h,m,m,m,m,h],
-  [m,m,m,m,h,m,m,m,m,h],
+  [m,m,m,m,m,m,m,m,m,m],
+  [m,m,m,m,h,m,m,m,m,m],
+  [m,m,m,m,h,m,m,m,m,m],
   [h,m,m,m,h,m,h,h,m,m],
   [h,m,m,m,m,m,m,m,m,m],
   [h,m,m,m,m,m,m,m,m,m],
