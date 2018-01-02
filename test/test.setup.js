@@ -36,7 +36,7 @@ const missTestBoard = [
 ]
 
 const hitTestBoard = [
-  [e,e,e,d,d,d,e,e,e,e],
+  [d,d,d,e,e,e,e,e,e,e],
   [e,e,e,e,e,e,e,e,e,s],
   [e,e,e,e,s,e,e,e,e,s],
   [e,e,e,e,s,e,e,e,e,s],
