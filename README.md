@@ -11,7 +11,7 @@ Write the logic to make the game of battleship.
 
 ## Task
 
-Pass the tests in `/test` by implementing the following functions:
+Pass the tests in `/test` by implementing the following functions in `/scripts/logic.js`:
 
 - `fireMissle`: takes a display board, a board with the ship positions and the coordinates for the missle. The function should use the coordinates to determine a `hit` or a `miss` based on the ship board. It should add either `hit` or `miss` to the display board and return the display board. 
 
