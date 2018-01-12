@@ -16,11 +16,11 @@ Pass the tests in `/test` by implementing the following functions in `/scripts/l
 - `fireMissle`: takes a display board, a board with the ship positions and the coordinates for the missle. The function should use the coordinates to determine a `hit` or a `miss` based on the ship board. It should add either `hit` or `miss` to the display board and return the display board. 
 
 ```
-const c = carrier	= 5
+const c = carrier = 5
 const b = battleship = 4
-const s = submarine	= 3
-const d = destroyer	= 3
-const p = patrolBoat	= 2
+const s = submarine = 3
+const d = destroyer = 3
+const p = patrolBoat = 2
 const m = miss = 1
 const e = empty = 0
 const h = hit = -1
