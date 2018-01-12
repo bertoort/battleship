@@ -1,10 +1,10 @@
 let gameOver = false
 
-const c = carrier	= 6
+const c = carrier = 6
 const b = battleship = 5
-const s = submarine	= 4
-const d = destroyer	= 3
-const p = patrolBoat	= 2
+const s = submarine = 4
+const d = destroyer = 3
+const p = patrolBoat = 2
 const m = miss = 1
 const e = empty = 0
 const h = hit = -1
